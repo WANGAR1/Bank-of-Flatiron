@@ -1,16 +1,11 @@
 import React from "react"
 
-function SearchBar() {
+  function SearchBar({ searchTerm, onSearchTermChange }) {
     return (
-     <div class="search-container">
-       <form >
-          <input type="text" placeholder="Search your Recent Transactions" name="search"/>
-        <button type="submit">
-          <span role="img">🔍</span>
-        </button>
-       </form>
-     </div>  
-        
-    )
+      <div>
+        <label htmlFor="search-bar-input"></label>
+        <input type="text" id="search-bar-input" value={searchTerm} onChange={onSearchTermChange} />
+      </div>
+    );
 }
 export default SearchBar
