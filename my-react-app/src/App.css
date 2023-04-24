@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   text-align: center;
+  padding: 5px;
 }
 
 h1 { 
@@ -15,9 +16,14 @@ h1 {
 }
 
 input {
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
   width: 25%;
-  margin-right: 10cm;
-  margin-left: 0.25em;
+  font-size: 20px;
 }
 
 body {
@@ -54,6 +60,8 @@ body {
   border: 2px solid darkorange;
   border-radius: 5px;
 }
+
+/*Transaction*/
 table.ui.celled.striped.padded.table {
   border-collapse: separate;
   border-spacing: 0;
@@ -89,6 +97,7 @@ table.ui.celled.striped.padded.table tr:hover {
   background-color: #e5f7ff;
 }
 
+/*AddTransactionForm*/
 .form-container {
   display: flex;
   justify-content: space-between;
@@ -99,6 +108,17 @@ table.ui.celled.striped.padded.table tr:hover {
   padding: 1em;
   margin: 1em auto;
   width: 90%;
+}
+
+.inline.fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inline.fields input {
+  flex-basis: 30%;
+  margin-right: 2%;
 }
 
 .form-container label {
