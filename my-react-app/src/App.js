@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="ui raised segment">
       <div >
-        <h2>The Royal Bank of Flatiron</h2>
+        <h1>The Royal Bank of Flatiron</h1>
       </div>
       <AccountContainer />
     </div>
