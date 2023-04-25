@@ -1,5 +1,12 @@
 # Bank-of-Flatiron
 
+#The Bank of Flatiron website does 3 things:
+
+1.Searches your Recent Transactions.
+2.Adds new transacctions.
+3.Displays your Transactions in a table.
+
+# In order to access the project,
 ## Available Scripts
 
 In the project directory, you can run:
@@ -20,5 +27,7 @@ You may also see any lint errors in the console.
  
  This will be your sever.
  
- #http://localhost:8001/transactions
+ http://localhost:8001/transactions
+ 
+ 
  
