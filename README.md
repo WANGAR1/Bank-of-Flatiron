@@ -1,15 +1,23 @@
 # Bank-of-Flatiron
 
-#The Bank of Flatiron website does 3 things:
+Bank of Flatiron is a website that deals with transactions; adding transactions and displaying recent transactions.
+
+# The Bank of Flatiron website does 3 things:
 
 1.Searches your Recent Transactions.
+
 2.Adds new transacctions.
+
 3.Displays your Transactions in a table.
 
 # In order to access the project,
+
+1. Clone this repository.
+
+2. Open in vscode
 ## Available Scripts
 
-In the project directory, you can run:
+3. In the project directory, open my-react-app, you can run:
 
 ### `npm install`
 
@@ -28,6 +36,8 @@ You may also see any lint errors in the console.
  This will be your sever.
  
  http://localhost:8001/transactions
+ 
+ # Licenced by...
  
  
  
